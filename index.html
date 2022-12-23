@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   
+   .header {
+        display: flex;
+    }
+
+    .header .menu ul {
+        display: flex;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #fff;
+        font-family: "Open Sans", sans serif;
+        line-height: 1.5;
+    }
+
+    .header {
+        border: 2px solid #ccc;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header .logo {
+        padding-left: 30px;
+    }
+
+    .header .menu ul {
+        display: flex;
+        list-style: none;
+    }
+
+    .header .menu ul li {
+        margin: 20px 10px;
+    }
+
+    .header .menu ul a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+        color: #06a327;
+    }
+
+    .phone {
+        font-size: 110%;
+        color: #333;
+        padding-right: 40px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="#"><img src="img/logo.png" alt=""></a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Меню</a></li>
+                <li><a href="#">Меню</a></li>
+                <li><a href="#">Меню</a></li>
+                <li><a href="#">Меню</a></li>
+                <li><a href="#">Меню</a></li>
+            </ul>
+        </nav>
+        <div class="phone">
+            <i class="fa fa-phone-square" aria-hidden="true"></i>
+            +380973457685
+        </div>
+    </header>
+</body>
+
+</html>
